@@ -87,7 +87,7 @@ class tabSectionSmall extends LitElement {
     <div id="column-template" class="col-12 col-md-3">
     <my-card></my-card>
     </div>
-    </section >
+    </section>
     `;
   }
   firstUpdated() {
