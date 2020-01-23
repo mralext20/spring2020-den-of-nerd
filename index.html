@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+    integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+    crossorigin="anonymous"></script>
+  <script type="module" src="card.js"></script>
 </head>
 
 <body>
@@ -32,22 +36,22 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item" id="movies-link">
-                <a class="nav-link" href="#">Movies <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#movies">Movies</a>
               </li>
               <li class="nav-item" id="tv-link'">
-                <a class="nav-link" href="#">TV <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#tv">TV</a>
               </li>
               <li class="nav-item" id="games-link">
-                <a class="nav-link" href="#">Games <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#games">Games</a>
               </li>
               <li class="nav-item" id="books-link">
-                <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#Books">Books</a>
               </li>
               <li class="nav-item" id="videos-link">
-                <a class="nav-link" href="#">Videos <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#Videos">Videos</a>
               </li>
               <li class="nav-item" id="culture-link">
-                <a class="nav-link" href="#">Culture <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#culture">Culture</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -74,92 +78,104 @@
     </div>
     <div class="row">
       <div class="col-12 col-md-6">
-        <div class="card bg-dark text-white">
-          <img class="card-img" src="//picsum.photos/400/300" alt="">
-          <div class="card-img-overlay">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-          </div>
-        </div>
+        <my-card></my-card>>
       </div>
       <div class="col-12 col-md-6">
         <div class="row">
           <div class="col-12 col-sm-6">
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="//picsum.photos/400/300" alt="">
-              <div class="card-img-overlay">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6">
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="//picsum.photos/400/300" alt="">
-              <div class="card-img-overlay">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-              </div>
-            </div>
+            <my-card></my-card>
           </div>
           <div class="col-12 col-sm-6">
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="//picsum.photos/400/300" alt="">
-              <div class="card-img-overlay">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-              </div>
-            </div>
+            <my-card></my-card>
           </div>
           <div class="col-12 col-sm-6">
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="//picsum.photos/400/300" alt="">
-              <div class="card-img-overlay">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-              </div>
-            </div>
+            <my-card></my-card>
+          </div>
+          <div class="col-12 col-sm-6">
+            <my-card></my-card>>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">ad</div>
     </div>
   </header>
   <main class="container-fluid">
 
     <section class="row" id="latest">
       <div class="col-12">latest!</div>
-      <div class="col-12 col-md-4">a</div>
-      <div class="col-12 col-md-4">b</div>
-      <div class="col-12 col-md-4">c</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
-      <div class="col-12 col-md-3">contnet</div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
 
     </section>
     <section class="row" id="trending">
       <div class="col-12"><img src="//placehold.it/200x200.png" alt=""></div>
       <div class="col-12" id="header">Trending</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
-      <div class="col-12 col-md-3">trending content</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
     </section>
     <section class="row" id="magazine">
       <div class="col-12">
@@ -170,73 +186,137 @@
     <section class="row" id="movies">
       <div class="col-12">movies</div>
       <!-- insert cards -->
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
     </section>
 
     <section class="row" id="TV">
       <div class="col-12">TV</div>
       <!-- TODO   -->
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
 
     </section>
 
     <section class="row" id="games">
       <div class="col-12">games</div>
       <!-- insert cards TODO  -->
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
 
     </section>
 
     <section class="row" id="books">
       <div class="col-12">books</div>
       <!-- insert cards TODO  -->
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
 
     </section>
 
     <section class="row" id="trailers">
       <div class="col-12">trailers</div>
       <!-- TODO   -->
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
-      <div class="col-12 col-md-4">stuff here</div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-4">
+        <my-card></my-card>
+      </div>
 
     </section>
 
     <section class="row" id="culture">
       <div class="col-12">culture</div>
       <!-- insert cards TODO  -->
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
 
     </section>
 
     <section class="row" id="lists">
       <div class="col-12">lists</div>
       <!-- insert cards TODO  -->
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
-      <div class="col-12 col-md-3">stuff here</div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
+      <div class="col-12 col-md-3">
+        <my-card></my-card>
+      </div>
 
     </section>
 
@@ -293,6 +373,9 @@ HomeMoviesTVGamesBooksVideoCultureInterviewsReviewsPreviewsPrivacy NoticePrivacy
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+    integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
     crossorigin="anonymous"></script>
 </body>
 
